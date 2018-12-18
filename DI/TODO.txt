@@ -1,0 +1,20 @@
+Use other project references
+Use generics
+Understand repositories design pattern
+Integrate repository in CRUD Controller
+Add Another Entity with its CRUD (NiklouOmou [name, cin])
+
+______________________________
+Use dependency injection (repository)
+
+Developer (: NO)
+Task
+Commit
+
+
+=> Objectives
+Very high abstraction layer
+Use the power of generics
+Use the power of reflection
+
+

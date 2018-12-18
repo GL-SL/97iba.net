@@ -1,0 +1,8 @@
+C:\Users\Arsslen\Desktop\FORMATION\DI\Reflection.Core\bin\Debug\netcoreapp2.1\Reflection.Core.deps.json
+C:\Users\Arsslen\Desktop\FORMATION\DI\Reflection.Core\bin\Debug\netcoreapp2.1\Reflection.Core.dll
+C:\Users\Arsslen\Desktop\FORMATION\DI\Reflection.Core\bin\Debug\netcoreapp2.1\Reflection.Core.pdb
+C:\Users\Arsslen\Desktop\FORMATION\DI\Reflection.Core\obj\Debug\netcoreapp2.1\Reflection.Core.csproj.CoreCompileInputs.cache
+C:\Users\Arsslen\Desktop\FORMATION\DI\Reflection.Core\obj\Debug\netcoreapp2.1\Reflection.Core.AssemblyInfoInputs.cache
+C:\Users\Arsslen\Desktop\FORMATION\DI\Reflection.Core\obj\Debug\netcoreapp2.1\Reflection.Core.AssemblyInfo.cs
+C:\Users\Arsslen\Desktop\FORMATION\DI\Reflection.Core\obj\Debug\netcoreapp2.1\Reflection.Core.dll
+C:\Users\Arsslen\Desktop\FORMATION\DI\Reflection.Core\obj\Debug\netcoreapp2.1\Reflection.Core.pdb
