@@ -15,3 +15,5 @@ C:\Users\Arsslen\Desktop\FORMATION\DI\DI\obj\Debug\netcoreapp2.1\DI.RazorTargetA
 C:\Users\Arsslen\Desktop\FORMATION\DI\DI\obj\Debug\netcoreapp2.1\DI.dll
 C:\Users\Arsslen\Desktop\FORMATION\DI\DI\obj\Debug\netcoreapp2.1\DI.pdb
 C:\Users\Arsslen\Desktop\FORMATION\DI\DI\obj\Debug\netcoreapp2.1\DI.csproj.CopyComplete
+C:\Users\Arsslen\Desktop\FORMATION\DI\DI\bin\Debug\netcoreapp2.1\DI.Core.dll
+C:\Users\Arsslen\Desktop\FORMATION\DI\DI\bin\Debug\netcoreapp2.1\DI.Core.pdb

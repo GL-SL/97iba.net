@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DI.Core.Contracts;
+using DI.Core.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Hosting;
@@ -67,7 +69,8 @@ namespace DI
                         ValidIssuer = Configuration["Auth:Issuer"]
                     };
                 });
-
+            services
+                .AddScoped<ICrudRepository<DI.Core.Entities.Task, Guid>, CrudRepository<DI.Core.Entities.Task, Guid>>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

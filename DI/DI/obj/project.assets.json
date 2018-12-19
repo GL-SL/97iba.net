@@ -4622,6 +4622,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "DI.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DI.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DI.Core.dll": {}
+        }
       }
     }
   },
@@ -12555,10 +12565,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "DI.Core/1.0.0": {
+      "type": "project",
+      "path": "../DI.Core/DI.Core.csproj",
+      "msbuildProject": "../DI.Core/DI.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "DI.Core >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -12596,7 +12612,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Arsslen\\Desktop\\FORMATION\\DI\\DI.Core\\DI.Core.csproj": {
+              "projectPath": "C:\\Users\\Arsslen\\Desktop\\FORMATION\\DI\\DI.Core\\DI.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
