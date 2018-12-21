@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using DI.Core.Contracts;
@@ -17,6 +19,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace DI
 {
@@ -71,6 +74,36 @@ namespace DI
                 });
             services
                 .AddScoped<ICrudRepository<DI.Core.Entities.Task, Guid>, CrudRepository<DI.Core.Entities.Task, Guid>>();
+
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "Dhabout Lguerda API",
+                    Description = "Wadh3iyet jane7 el ta2ira \\_",
+                    TermsOfService = "Nik ala 3ajla bil volant",
+                    Contact = new Contact
+                    {
+                        Name = "Taxiste",
+                        Email = string.Empty,
+                        Url = "http://yahya-miboun.69"
+                    },
+                    License = new License
+                    {
+                        Name = "Ja3bou ma7loul",
+                        Url = "https://sami-forja.xxx/permis"
+                    }
+                });
+                // Set the comments path for the Swagger JSON and UI.
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
+
+                
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -87,6 +120,15 @@ namespace DI
 
 
             app.UseAuthentication();
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), 
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Dhabout Lguerda API V1");
+            });
 
             app.UseMvc(routes =>
             {

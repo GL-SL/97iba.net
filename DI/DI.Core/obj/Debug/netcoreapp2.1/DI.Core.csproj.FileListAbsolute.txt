@@ -1,7 +1,6 @@
 C:\Users\Arsslen\Desktop\FORMATION\DI\DI.Core\bin\Debug\netcoreapp2.1\DI.Core.deps.json
 C:\Users\Arsslen\Desktop\FORMATION\DI\DI.Core\bin\Debug\netcoreapp2.1\DI.Core.dll
 C:\Users\Arsslen\Desktop\FORMATION\DI\DI.Core\bin\Debug\netcoreapp2.1\DI.Core.pdb
-C:\Users\Arsslen\Desktop\FORMATION\DI\DI.Core\obj\Debug\netcoreapp2.1\DI.Core.csprojAssemblyReference.cache
 C:\Users\Arsslen\Desktop\FORMATION\DI\DI.Core\obj\Debug\netcoreapp2.1\DI.Core.csproj.CoreCompileInputs.cache
 C:\Users\Arsslen\Desktop\FORMATION\DI\DI.Core\obj\Debug\netcoreapp2.1\DI.Core.AssemblyInfoInputs.cache
 C:\Users\Arsslen\Desktop\FORMATION\DI\DI.Core\obj\Debug\netcoreapp2.1\DI.Core.AssemblyInfo.cs

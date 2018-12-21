@@ -6,9 +6,14 @@ using Newtonsoft.Json;
 
 namespace DI.Models
 {
+
     public class TaskViewModel
     {
+        /// <summary>
+        /// The name of the task
+        /// </summary>
         [JsonRequired]
+        
         public string Name { get; set; }
     }
 }

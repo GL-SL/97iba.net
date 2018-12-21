@@ -25,8 +25,8 @@ namespace DI.Controllers
             this._configuration = configuration;
             this._userManager = userManager;
         }
-
-        public string GenerateToken(IdentityUser user)
+   
+        private string GenerateToken(IdentityUser user)
         {
             var claims = new[]
             {
@@ -53,6 +53,7 @@ namespace DI.Controllers
         [HttpPost("/api/v1/auth/login")]
         public async Task<IActionResult> Login([FromBody] LoginViewModel model)
         {
+            
             //var user = new IdentityUser
             //{
             //    Email = model.Email,

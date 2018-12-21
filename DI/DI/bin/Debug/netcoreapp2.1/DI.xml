@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DI</name>
+    </assembly>
+    <members>
+        <member name="M:DI.Controllers.TasksController.Create(DI.Models.TaskViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <response code="200">Returns the response status</response>
+            <response code="401">Unauthorized access</response>
+            <returns></returns>
+        </member>
+        <member name="P:DI.Models.TaskViewModel.Name">
+            <summary>
+            The name of the task
+            </summary>
+        </member>
+    </members>
+</doc>
